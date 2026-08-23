@@ -201,6 +201,8 @@ sudo systemctl restart wazuh-manager
 ## Part 5 — Configure Alerts
 
 Now make the SIEM actually *notify someone* when a high-risk vulnerability shows up — the brief calls this out as "relevant stakeholders," so email is the simplest to demonstrate.
+visit the wazuh documentation page for setting up email smtp/ftp
+https://documentation.wazuh.com/current/user-manual/manager/alert-management.html#smtp-server-with-authentication
 
 Edit the config again:
 
